@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Magic Bug</title>
+</head>
+
+<body>
+    <section class="panel" id="first-page">
+        <header class="d-flex justify-content-between align-items-end container">
+            <div class="logo"><img src="assets/img/logo1.png" alt="logo"></div>
+            <div class="contact">
+                <div class="item d-flex justify-content-center align-items-center mb-2">
+                    <img src="assets/img/address.png" alt="address">
+                    <p class="text-upper">москва, б-р покровский, д. 13</p>
+                </div>
+                <div class="item d-flex justify-content-center align-items-center mb-2">
+                    <img src="assets/img/phone.png" alt="phone">
+                    <p class="text-upper">+7 978 973-20-30</p>
+                </div>
+            </div>
+        </header>
+
+        <div class="container d-flex flex-column align-items-center justify-content-center content"
+            style="margin-top: 150px;">
+            <ul class="nav">
+                <li class="text-upper"><a href="#about-us">О нас</a></li>
+                <li class="text-upper"><a href="#catalog">Каталог</a></li>
+                <li class="text-upper"><a href="#news">Новости</a></li>
+                <li class="text-upper"><a href="#sub">Контакты</a></li>
+            </ul>
+            <h1 class="site-name" style="margin-top: 40px;">magic bug</h1>
+            <p class="text-upper text-center mt-3" style="font-size: 19px;">кино с заботой о тебе!</p>
+            <a class="btn btn-white-big text-upper" style="margin-top: 50px" href="#catalog">каталог</a>
+        </div>
+    </section>
+
+    <section class="panel" id="about-us">
+        <div class="container d-flex h-100 flex-column align-items-center justify-content-center">
+            <h1 class="section-title text-upper" id="titleaboutus">о нас</h1>
+            <p class="text-upper text-center mt-5" style="font-size: 23px;"
+            >Рады приветствовать на нашем сервисе по продаже комедийных фильмов!<br>
+            <span class="colortext">Magic Bug</span> это лучший сервис на котором Вы сможете <span class="colortext">первыми</span> узнать 
+            <br>о самых новых премьерах самых смешных комедийных фильмов!<br><br>
+                <span class="colortext">Мы</span> уделяем <span class="colortext">особое</span> внимание каждому посетителю!<br>
+                На нашем сайте всегда <span class="colortext">самая</span> актуальная информация!<br>
+                Наша компания <span class="colortext">в любое время</span> готова ответить на любой Ваш вопрос!<br><br>
+                Мы <span class="colortext">ценим доверие</span> наших посетителей и делаем все возможное чтобы <br>
+                чаще радовать <span class="colortext">вас</span> премьерами новых комедий!
+            </p>
+            <br>
+            <a class="btn btn-white-big text-upper" href="#catalog" style="margin-top: 45px;">Каталог</a>
+        </div>
+    </section>
+
+    <section class="panel" id="catalog">
+        <h1 class="section-title text-upper" id="catalojik">каталог</h1>
+        <input type="radio" id="all" checked name="categories" value="all">
+        <div class="categories">
+            <form id="catalog_filter">
+                <ul id="categories-container">
+                    <li>
+                        <label for="all" id="all-tab" class="text-upper">Лучшие комедии</label>
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <div class="panels">
+            <div id="all-container" class="justify-content-between flex-wrap catalog-container">
+                <div class="c-card">
+                    <img src="assets/img/catalog/comedy/1.png" alt="card-image">
+                    <div class="card-body">
+                        <h3 class="text-upper text-center" style="color: white;">Операция «Ы» и 
+                            другие приключения шурика</h3>
+                        <div class="price-container d-flex justify-content-between align-items-center">
+                            <p class="price">1070<span>р.</span></p>
+                            <p class="year">1965 г.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-card">
+                    <img src="assets/img/catalog/comedy/2.png" alt="card-image">
+                    <div class="card-body">
+                        <h3 class="text-upper text-center" style="color: white;">Холоп</h3>
+                        <div class="price-container d-flex justify-content-between align-items-center">
+                            <p class="price">650<span>р.</span></p>
+                            <p class="year">2019 г.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-card">
+                    <img src="assets/img/catalog/comedy/3.png" alt="card-image">
+                    <div class="card-body">
+                        <h3 class="text-upper text-center" style="color: white;">Один дома</h3>
+                        <div class="price-container d-flex justify-content-between align-items-center">
+                            <p class="price">560<span>р.</span></p>
+                            <p class="year">1990 г.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-card">
+                    <img src="assets/img/catalog/comedy/4.png" alt="card-image">
+                    <div class="card-body">
+                        <h3 class="text-upper text-center" style="color: white;">Маска
+                        </h3>
+                        <div class="price-container d-flex justify-content-between align-items-center">
+                            <p class="price">770<span>р.</span></p>
+                            <p class="year">1994 г.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-card">
+                    <img src="assets/img/catalog/comedy/5.png" alt="card-image">
+                    <div class="card-body">
+                        <h3 class="text-upper text-center" style="color: white;">Майор Пэйн</h3>
+                        <div class="price-container d-flex justify-content-between align-items-center">
+                            <p class="price">990<span>р.</span></p>
+                            <p class="year">1995 г.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-card">
+                    <img src="assets/img/catalog/comedy/6.png" alt="card-image">
+                    <div class="card-body">
+                        <h3 class="text-upper text-center" style="color: white;">Мальчишник в Вегасе</h3>
+                        <div class="price-container d-flex justify-content-between align-items-center">
+                            <p class="price">560<span>р.</span></p>
+                            <p class="year">2009 г.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="panel" id="news">
+        <h1 class="section-title text-upper" id="novosti">Новости</h1>
+        <input type="radio" id="hits" checked name="categories1" value="hits">
+        <div class="categories">
+            <form id="catalog_filter">
+                <ul id="categories-container">
+                    <li>
+                        <label for="hits" id="hits-tab" class="text-upper">Свежие новинки</label>
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <div class="panels">
+            <div id="hits-container" class="justify-content-between flex-wrap news-container">
+                <div class="c-card">
+                    <img src="assets/img/catalog/news/1.png" alt="card-image">
+                    <div class="card-body">
+                        <h3 class="text-upper text-center" style="color: white;">Конец славы</h3>
+                        <div class="price-container d-flex justify-content-between align-items-center">
+                            <p class="price">950<span>р.</span></p>
+                            <p class="year">2023 г.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-card">
+                    <img src="assets/img/catalog/news/2.png" alt="card-image">
+                    <div class="card-body">
+                        <h3 class="text-upper text-center" style="color: white;">Без обид</h3>
+                        <div class="price-container d-flex justify-content-between align-items-center">
+                            <p class="price">1100<span>р.</span></p>
+                            <p class="year">2023 г.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-card">
+                    <img src="assets/img/catalog/news/3.png" alt="card-image">
+                    <div class="card-body">
+                        <h3 class="text-upper text-center" style="color: white;">Поехавшая</h3>
+                        <div class="price-container d-flex justify-content-between align-items-center">
+                            <p class="price">1450<span>р.</span></p>
+                            <p class="year">2023 г.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <br>
+    <br>
+
+    <section class="panel" id="sub">
+        <div class="container h-100 d-flex justify-content-center align-items-center flex-column">
+            <h1 class="section-title text-upper">Связь с нами</h1>
+            <br>
+            <h1 class="section-title text-upper" id="subdvach">Мы с радостью ответим на все ваши вопросы!</h1>
+            <form class="w-50 mt-5 d-flex flex-column align-items-center">
+                <input type="text" id="namee" class="form-control" placeholder="ФИО">
+                <input type="text" id="maill" class="form-control mt-3" placeholder="ПОЧТА">
+                <input type="text" id="messs" class="form-control mt-3" placeholder="ВАШ ВОПРОС">
+                <button class="btn btn-white-big text-upper mt-5" id="subb">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="panel">
+            <p>Copyright © 2024 Magic Bug<br>
+                Меликян Александр Артурович ИС-4-1<br>
+                Почта: magicbugfilm@mail.ru<br>
+                Контактный номер телефона:<br>
+                +7 978 973-20-30<br>
+                Мы находимся: г. Москва, б-р Покровский, д. 13
+            </p>
+
+            <div class="h-100 d-flex align-items-end">
+                <ul class="nav">
+                    <li class="text-upper"><a href="#about-us">О нас</a></li>
+                    <li class="text-upper"><a href="#catalog">Каталог</a></li>
+                    <li class="text-upper"><a href="#news">Новости</a></li>
+                    <li class="text-upper"><a href="#sub">Контакты</a></li>
+                </ul>
+            </div>
+        
+    </footer>
+    <a class="btn btn-primary btn-up" href="#first-page"><img src="assets/img/go_up.png" alt="go up"></a>
+</body>
+</html>
